@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> Loja de Computadores Cadastro </title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+        <style>
+            body{
+                background: AliceBlue;
+            }
+            div {
+                margin: 15px;
+            }
+            .margem-botao{
+                margin: 15px 0px;
+            }
+            
+            body{
+                background-image: url(Imagem/papel%20de%20parede.jpg);
+                
+            }
+        </style>
+    </head>
+    
+    <body>
+        <h1>Cadastre-se</h1>
+        <div class="row">
+
+        <div class="col-md-3">
+            Cadastre seus dados no formulário ao lado para finalizar sua compra conosco!
+        </div>
+        <div class="col-md-9">
+            <form>		
+                <div class="form-group">
+                <label for='nome'> * Digite seu nome completo: </label><br>
+                <input type='text' name='nome' class='form-control'/>
+            </div>
+                <div class="form-group">
+                <label for='email'> * Informe seu e-mail: </label>
+                <input type='email' name='email' class='form-control'/>
+            </div>
+                <div class="container-fluid">
+                    <div class="col-md-4">
+                        <div class="form-group"> 
+                <label for="idade"> Informe a sua idade: </label> 
+                <input type='number' name='idade' class='form-control'/>
+            </div>
+                <label for="data"> Informe a melhor data para pagamento: </label>
+                <input type="date" placeholder="dd/mm/aa" class='form-control'/>
+                <div class="form-group">
+                <label for="check"> Qual seu gênero sexual: </label><br>
+                <input type="radio"  name="check" value="masculino"> Masculino<br>
+                <input type="radio"  name="check" value="feminino"> Feminino<br>
+            </div>
+                <label for="text"> Como Conheceu nosso site? </label><br>
+                <input type="checkbox" value="preto"> Google<br>
+                <input type="checkbox" value="preto"> Amigos<br>
+                <input type="checkbox" value="preto"> Revistas e Jornais<br>
+            
+            <div class="margem-botao">       
+                
+			<div class="form-group" align="center">
+				<button type="submit" class="btn btn-lg btn-success"> 
+					<span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Enviar dados
+				</button>
+			</div>
+
+
+            </div>
+        </form>
+        </div>
+        </div>
+    </body>
+
+</html>
